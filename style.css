@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+header{
+    padding: 60px 0;
+}
+
+
+
+.rowheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.rowheader .right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.rowheader ul{
+    display: flex;
+    gap: 60px;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+a:hover{
+color: orange;
+}
+
+
+.reg{
+background-color: orange;
+color: white;
+border: none;
+padding: 16px 32px;
+border-radius: 10px;
+box-shadow: 0px 4px 10px orange;
+}
+
+
+.reg:hover{
+    background-color: rgb(255, 197, 90);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    padding: 60px 0;
+}
+
+
+
+
+
+.rowfirst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 52px 87px;
+}
+
+
+.left p span{
+    color: orange;
+    font-size: 66px;
+}
+
+
+span{
+    color: orange;
+}
+
+
+
+.az{
+    font-size: 66px;
+}
+
+
+
+.eg{
+    margin-top: 41px;
+    background-color: orange;
+color: white;
+border: none;
+padding: 16px 32px;
+border-radius: 10px;
+box-shadow: 0px 4px 10px orange;
+}
+
+.eg:hover{
+    background-color: rgb(255, 197, 90);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rowsecond{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rowsecond h1{
+ font-size: 36px;
+}
+
+
+.rowsecond span{
+    font-size: 36px;
+}
+
+.rowsecond p{
+    font-size: 36px;
+}
+
+
+.right p{
+    font-size: 20px;
+}
+
+
+
+.g{
+    border-radius: 5px;
+    margin-top: 41px;
+    background-color: orange;
+color: white;
+border: none;
+padding: 16px 32px;
+border-radius: 10px;
+box-shadow: 0px 4px 10px orange;
+}
+
+
+.g:hover{
+    background-color: rgb(255, 197, 90);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.top span{
+    color: orange;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sectionfirst{
+    display: flex;
+    align-items: center;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+
+    .g{
+        display: flex;
+        border-radius: 5px;
+        margin-top: 41px;
+        background-color: orange;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px orange;
+    }
+
+
+    
+    
+    .g:hover{
+        background-color: rgb(255, 197, 90);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .rowthird{
+        display: flex;
+        gap: 27px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .left span{
+        color: orange;
+        font-size: 36px;
+    }
+
+
+     .left .dow{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .box{
+        width: 1170px;
+        height: 250px;  
+        background-color: #FF7A50;
+        border-radius: 70px;
+        align-items: center;
+    }
+
+
+
+    .box h1{
+        align-items: center;
+        border-radius: 70px;
+        color: white;
+        font-size: 40px;
+    }
+
+
+    .box2{
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        width: 838px;
+        height: 78px;
+        background-color: wheat;
+        border-radius: 70px;
+        gap: 387px;
+        margin: 0 0 0 165px;
+    }
+
+
+    .box2 .left p{
+        font-size: 18px;
+    }
+
+
+    .box2 .right {
+        width: 192px;
+        height: 59px;
+        color: wheat;
+        background-color: #FF7A50;
+        border-radius: 70px;
+    }
+
+
+
+    .pteg{
+        color: white;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+
+
+
+    .right .ent{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .ent{
+        display: flex;
+        align-items: center;
+    }
+
+    .left p{
+        color: #363853;
+        padding: 0 0 0 42px;
+    }
